@@ -1,0 +1,38 @@
+{
+  "name": "vconsole-resources",
+  "version": "1.0.0",
+  "description": "A plugin for vConsole.",
+  "homepage": "https://github.com/WechatFE/vConsole-resources",
+  "main": "dist/vconsole-resources.min.js",
+  "scripts": {
+    "dist": "webpack",
+    "vconsole": "cp node_modules/vconsole/dist/vconsole.min.js example/lib/vconsole.min.js"
+  },
+  "keywords": [
+    "console",
+    "vConsole",
+    "debug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WechatFE/vConsole-resources.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vconsole": "^2.2.0",
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.1.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.3",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "~1.12.11"
+  },
+  "author": "WechatFE Team",
+  "license": "MIT"
+}
